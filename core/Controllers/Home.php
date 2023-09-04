@@ -6,7 +6,7 @@ namespace Controllers;
 class Home extends Controller
 {
 
-    protected $modelName = \Model\Exemple::class;
+    protected $modelName = \Model\Pokemon::class;
     
 
     /**
@@ -20,7 +20,7 @@ class Home extends Controller
         $exemple = "votre contenue";
 
         //on fixe le titre de la page
-        $titreDeLaPage = "titre d'une page";
+        $titreDeLaPage = "Pokemon Api PE6";
 
         //on affiche
         \Rendering::render("home/home",
